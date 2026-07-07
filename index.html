@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحه کلیدهای من</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #93a8c8;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: darkblue;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,1.1);
+        }
+        h1 {
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+        .button-grid {
+            display: grid;
+            gap: 15px;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: darkblue;
+            background-color: #ffc000;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>لیست دسترسی سریع</h1>
+    <div class="button-grid">
+        <!-- در قسمت href آدرس سایت و در متن کلید، نام آن را بنویسید -->
+        <a href="https://www.instagram.com/chapgar.lahijan/" target="_blank" class="btn">instagram</a>
+        <a href="https://www.chapchea.ir" target="_blank" class="btn">website</a>
+        <a href="https://maps.app.goo.gl/dSs8Y8bUmruataND6" target="_blank" class="btn">آدرس دفتر</a>
+ 	<a href="https://drive.google.com/file/d/1nK4xG3iBxUZ9WgzMCsjQ1z5fnMVazUAe/view?usp=drive_link" target="_blank" class="btn">تماس با ما</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_-owBWTz58yha4tghtIsM0VUL5oaNeAsERhjbqoju7mQl4w/viewform?usp=dialog" target="_blank" class="btn">آپلود فایل</a>
+    </div>
+</div>
+
+</body>
+</html>
